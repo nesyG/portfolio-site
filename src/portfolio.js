@@ -1,70 +1,63 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
+  homepage: '#',
   title: 'JS.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
+  name: 'Ines Radman',
   role: 'Front End Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    "Hello! I'm a skilled web developer with 2 years of experience and expertise in HTML5, CSS3, JavaScript and React. I can help you create professional, sharp and responsive designs and layouts that ensure cross-browser compatibility and optimal performance on various devices and browsers, and much more. Let's get in touch!",
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/ines-radman/',
+    github: 'https://github.com/nesyG'
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Car Market',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'React application for browsing, filtering and sorting car data from Baasic backend. Mobx state managment.',
+    stack: ['TypeScript', 'React', 'Baasic'],
+    sourceCode: 'https://github.com/nesyG/car-market-react',
+    livePreview: 'https://car-market-react.vercel.app/',
+    image: './images/e-commerce-project.png'
   },
   {
-    name: 'Project 2',
+    name: 'Sports Center Managment System',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      "Full-stack web app that is used for managing a sports centre schedule and it's registered users.",
+    stack: ['TypeScript', 'React', 'NodeJS', 'MogoDB'],
+    sourceCode: 'https://github.com/nesyG/sport_managment',  
+    image: './images/e-commerce-project.png'
   },
   {
-    name: 'Project 3',
+    name: 'E-commerce landing page',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'This is a simple e-commerce layout built with Vanilla JavaScript, Tailwind CSS, and hosted on Vercel.',
+    stack: ['JavaScript', 'Tailwind CSS'],
+    sourceCode: 'https://github.com/nesyG/e-commerce-project',
+    livePreview: 'https://e-commerce-project-vrow.vercel.app/',
+    image: './images/e-commerce-project.png'
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Mobx',
+  'Tailwind',
+  'Syncfusion',
+  'NodeJS',
   'Git',
-  'CI/CD',
   'Jest',
-  'Enzyme',
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'johnsmith@mail.com',
 }
 

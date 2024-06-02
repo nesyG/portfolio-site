@@ -14,6 +14,11 @@
   margin-top: 1em;
 }
 
+.project__image {
+  width: 95%;
+  margin-bottom: 20px;
+}
+
 .project__stack {
   display: flex;
   flex-wrap: wrap;
