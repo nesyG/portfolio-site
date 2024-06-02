@@ -5,7 +5,7 @@ import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
-    <img className='project__image' src={project.image} alt="car_project_preview" />
+    <img className='project__image' src={project.image} alt="car_project_preview"/>
 
     <h3>{project.name}</h3>
 

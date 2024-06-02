@@ -4,10 +4,10 @@ const header = {
 }
 
 const about = {
-  name: 'Ines Radman',
+  name: 'Ines',
   role: 'Front End Engineer',
   description:
-    "Hello! I'm a skilled web developer with 2 years of experience and expertise in HTML5, CSS3, JavaScript and React. I can help you create professional, sharp and responsive designs and layouts that ensure cross-browser compatibility and optimal performance on various devices and browsers, and much more. Let's get in touch!",
+    "A web developer with 2 years of experience and expertise in HTML5, CSS3, JavaScript and React. I can help you create professional, sharp and responsive designs and layouts that ensure cross-browser compatibility and optimal performance on various devices and browsers, and much more. Let's get in touch!",
   social: {
     linkedin: 'https://www.linkedin.com/in/ines-radman/',
     github: 'https://github.com/nesyG'
@@ -22,15 +22,15 @@ const projects = [
     stack: ['TypeScript', 'React', 'Baasic'],
     sourceCode: 'https://github.com/nesyG/car-market-react',
     livePreview: 'https://car-market-react.vercel.app/',
-    image: './images/e-commerce-project.png'
+    image: './e-commerce-project.png' 
   },
   {
     name: 'Sports Center Managment System',
     description:
       "Full-stack web app that is used for managing a sports centre schedule and it's registered users.",
     stack: ['TypeScript', 'React', 'NodeJS', 'MogoDB'],
-    sourceCode: 'https://github.com/nesyG/sport_managment',  
-    image: './images/e-commerce-project.png'
+    sourceCode: 'https://github.com/nesyG/sport_managment',
+    image: './e-commerce-project.png'
   },
   {
     name: 'E-commerce landing page',
@@ -39,7 +39,7 @@ const projects = [
     stack: ['JavaScript', 'Tailwind CSS'],
     sourceCode: 'https://github.com/nesyG/e-commerce-project',
     livePreview: 'https://e-commerce-project-vrow.vercel.app/',
-    image: './images/e-commerce-project.png'
+    image: './e-commerce-project.png'
   },
 ]
 
@@ -55,6 +55,7 @@ const skills = [
   'NodeJS',
   'Git',
   'Jest',
+  '.Net Core'
 ]
 
 const contact = {
